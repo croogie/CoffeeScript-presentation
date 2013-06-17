@@ -15,5 +15,5 @@ if not false
 
 # And / Or operator
 if name is "Michał" and num isnt 11
-  console.log "Hey Michał, num isn't equal to 11"
+  console.log "Hey Michał! Num isn't equal to 11"
   console.log "==============="

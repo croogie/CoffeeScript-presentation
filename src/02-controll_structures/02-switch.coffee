@@ -11,3 +11,22 @@ giveWork = (person) ->
       console.log "Umhhh... I don't have any moneys stranger!"
 
 giveWork person
+
+# assign if result to variable
+person =
+  name: "Someone"
+  relationship: "friend"
+
+person2 =
+  name: "Someone else"
+  relationship: "boss"
+
+greet = (person) ->
+  msg = if person.relationship is "friend"
+    "hi, #{person.name}"
+  else if person.relationship is "boss"
+    "hello, ma'am!"
+  console.log msg
+
+greet person
+greet person2
